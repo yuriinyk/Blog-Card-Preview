@@ -1,0 +1,111 @@
+body {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,255,255,1) 100%);
+  font-family: 'Figtree', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 100%;
+  max-width: 375px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  padding: 10px 15px; 
+  background-color: hsl(0, 0%, 97%);
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
+  text-align: left;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: hsl(0, 0%, 42%);
+}
+
+.card-footer {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 97%);
+  border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.author-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-name {
+  font-weight: 700;
+  color: hsl(0, 0%, 7%);
+  font-size: 0.9rem; }
+
+.card {
+  width: 100%; 
+  max-width: 375px; 
+}
+
+.card-header, .card-content, .card-footer{
+  padding: 10px;} 
+
+.card-content h2 {
+  font-size: 1.5rem;
+}
+
+.card-content p {
+  font-size: 1rem;
+}
+
+.author-img {
+  width: 30px; 
+  height: 30px;
+}
+
+.author-name {
+  font-size: 0.9rem;
+}
